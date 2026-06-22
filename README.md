@@ -1,6 +1,91 @@
 # IMS-react
 
-<img width="1417" alt="Screenshot 2024-12-30 at 21 40 04" src="https://github.com/user-attachments/assets/d81fa291-eb4f-4805-b773-033bbd3c8936" />
+# Inventory Management System
 
+## Overview
 
-<img width="1417" alt="Screenshot 2024-12-30 at 21 39 46" src="https://github.com/user-attachments/assets/4679436a-ba3f-4d65-87f6-d949d7b5ddf6" />
+A full-stack Inventory Management System built using React.js, Spring Boot, MySQL, and JWT Authentication. The system helps manage products, suppliers, purchases, sales, and inventory transactions with a modern dashboard and role-based access control.
+
+## Features
+
+* JWT Authentication
+* Role-Based Access Control (Admin & Manager)
+* Product Management
+* Supplier Management
+* Purchase Management
+* Sales Management
+* Transaction Tracking
+* Dashboard Analytics
+* Inventory Monitoring
+* Product Image Upload
+
+## Tech Stack
+
+### Frontend
+
+* React.js
+* CSS
+* Recharts
+
+### Backend
+
+* Spring Boot
+* Spring Security
+* JWT Authentication
+* REST APIs
+
+### Database
+
+* MySQL
+
+## Screenshots
+
+### Dashboard
+
+![Dashboard](screenshot/dashboard.png)
+
+### Categories
+
+![Categories](screenshot/categories.png)
+
+### Products
+
+![Products](screenshot/products.png)
+
+### Suppliers
+
+![Suppliers](screenshot/supplier.png)
+
+### Purchase
+
+![Purchase](screenshot/purchase.png)
+
+### Sales
+
+![Sales](screenshot/sales.png)
+
+### Transactions
+
+![Transactions](screenshot/transactions.png)
+
+## Installation
+
+### Backend
+
+```bash
+cd backend
+mvn spring-boot:run
+```
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+## Author
+
+Monica V
+
